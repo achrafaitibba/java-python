@@ -1,3 +1,6 @@
+/home/one-x-shield/Desktop/java-python/java-python.iml
+/home/one-x-shield/Desktop/java-python/.idea
+.gitignore
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
