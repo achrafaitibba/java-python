@@ -1,6 +1,7 @@
 import sys
 
-def function1(param1, param2):
+def function1(param1: typing.Callable[[], str] = lambda: input('Please enter your phone (or bot token): '),
+                          , param2):
     print(f"Function 1 called with parameters: {param1}, {param2}")
 
 
