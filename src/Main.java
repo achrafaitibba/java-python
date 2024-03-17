@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 public class Main {
 
     public static void java_python() throws Exception {
-        ProcessBuilder processBuilder = new ProcessBuilder("python3", "/home/one-x-shield/Desktop/java-python/src/hello.py");
+        ProcessBuilder processBuilder = new ProcessBuilder("python3", "src/hello.py");
         processBuilder.redirectErrorStream(true);
 
         Process process = processBuilder.start();
